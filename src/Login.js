@@ -33,7 +33,7 @@ export default function Login() {
         <div>
             <h1>Login Page</h1>
             { welcome ? 
-                (<p>Welcome,user</p>)
+                (<p>Welcome, user</p>)
             :( 
             <>
             {!notValid && <p>Invalid username or password</p>}
